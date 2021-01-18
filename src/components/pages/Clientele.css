@@ -1,0 +1,116 @@
+
+
+
+  
+  .aboutus2-container {
+    background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 155vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    padding: 0% 4%;
+  }
+  
+  .aboutus2-container > h1 {
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .aboutus2-container > h2 {
+    color: #fff;
+    font-size: 70px;
+    margin-top: -100px;
+    text-align: center;
+  }
+  
+  .aboutus2-container > p {
+    text-align: left;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  @media(orientation:portrait){
+    .aboutus2-container {
+      background: #ffd89b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+      height: 205vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+      object-fit: contain;
+      padding: 0% 4%;
+    }
+    
+    .aboutus2-container > h1 {
+      text-align: left;
+      color: #fff;
+      font-size: 18px;
+      margin-top: 8px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .aboutus2-container > h2 {
+      color: #fff;
+      font-size: 70px;
+      margin-top: -100px;
+      text-align: center;
+    }
+    
+    .aboutus2-container > p {
+      text-align: left;
+      margin-top: 8px;
+      color: #fff;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    }
+  }
+ 
+  
+  @media screen and (max-width: 960px) {
+    .aboutus2-container > h1 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutus2-container > h1 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .aboutus2-container > h2 {
+        font-size: 50px;
+        margin-top: -30px;
+    }
+  
+    .aboutus2-container > p {
+      font-size: 12px;
+    }
+  
+    
+  }
+ 
+  
